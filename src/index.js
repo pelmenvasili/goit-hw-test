@@ -7,9 +7,8 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='/goit-hw-test'>
+    <BrowserRouter basename="/goit-hw-test">
       <App />
-    </BrowserRouter> 
+    </BrowserRouter>
   </React.StrictMode>
 );
-
