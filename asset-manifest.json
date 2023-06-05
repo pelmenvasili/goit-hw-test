@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/goit-hw-test/static/css/main.7acaea2f.css",
-    "main.js": "/goit-hw-test/static/js/main.07d3183d.js",
+    "main.css": "/goit-hw-test/static/css/main.1bd379e7.css",
+    "main.js": "/goit-hw-test/static/js/main.cbd52d77.js",
+    "static/media/background-picture.png": "/goit-hw-test/static/media/background-picture.b186e544641a66e17d83.png",
+    "static/media/logo.svg": "/goit-hw-test/static/media/logo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/goit-hw-test/index.html",
-    "main.7acaea2f.css.map": "/goit-hw-test/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/goit-hw-test/static/js/main.07d3183d.js.map"
+    "main.1bd379e7.css.map": "/goit-hw-test/static/css/main.1bd379e7.css.map",
+    "main.cbd52d77.js.map": "/goit-hw-test/static/js/main.cbd52d77.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.1bd379e7.css",
+    "static/js/main.cbd52d77.js"
   ]
 }
