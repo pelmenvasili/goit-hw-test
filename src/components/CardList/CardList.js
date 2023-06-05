@@ -4,14 +4,18 @@ import css from './CardList.module.css';
 import Loader from '../Loader/Loader';
 
 function CardList({ users, addComma, onButtonClick, isLoading }) {
-
   return (
     <>
-  {isLoading && <Loader/>}
-    <ul className={css.container}>
-      {users.map((user) => (
-        <CardItem key={user.id} user={user} addComma={addComma} onButtonClick={onButtonClick} />
-      ))}
+      {isLoading && <Loader />}
+      <ul className={css.container}>
+        {users.map(user => (
+          <CardItem
+            key={user.id}
+            user={user}
+            addComma={addComma}
+            onButtonClick={onButtonClick}
+          />
+        ))}
       </ul>
     </>
   );

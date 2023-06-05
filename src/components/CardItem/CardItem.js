@@ -9,11 +9,17 @@ import rectangleImage from './images/rectangle.png';
 function CardItem({ user, addComma, onButtonClick }) {
   return (
     <li key={user.id} className={css.cardContainer}>
-    <img src={logoImage} alt="logo" className={css.logo} />
+      <img src={logoImage} alt="logo" className={css.logo} />
       <img src={backgroundImage} alt="background" />
       <img src={rectangleImage} alt="rectangle" className={css.rectangle} />
       <img src={elipseImage} alt="elipse" className={css.elipse} />
-      <img src={user.avatar} alt="avatar" width="62" height="62" className={css.avatar} />
+      <img
+        src={user.avatar}
+        alt="avatar"
+        width="62"
+        height="62"
+        className={css.avatar}
+      />
       <p className={`${css.text} ${css.nickname}`}>{user.user}</p>
       <p className={css.text}>{user.tweets} tweets</p>
       <p className={css.text}>{addComma(user.followers)} followers</p>

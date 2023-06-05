@@ -4,7 +4,7 @@ import css from './Button.module.css';
 function Button({ text, isFollowing, onClick }) {
   return (
     <button
-      type='button'
+      type="button"
       className={`${css.followBtn} ${isFollowing ? css.followingBtn : ''}`}
       onClick={onClick}
     >

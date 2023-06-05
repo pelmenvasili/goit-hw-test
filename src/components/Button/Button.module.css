@@ -1,21 +1,23 @@
-.followBtn, .pageBtn, .loadMoreBtn {
+.followBtn,
+.pageBtn,
+.loadMoreBtn {
   padding: 14px 28px;
   width: 196px;
-height: 50px;
-background: #EBD8FF;
-box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
-border-radius: 10.3108px;
-cursor: pointer;
-margin: 0 auto;
-display: block;
+  height: 50px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
 
-text-transform: uppercase;
-font-family: 'Montserrat';
-font-weight: 600;
-font-size: 18px;
-line-height: 1.2;
-text-transform: uppercase;
-color: #373737;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #373737;
 }
 
 .pageBtn {
@@ -25,10 +27,14 @@ color: #373737;
   margin-right: 10px;
 }
 
-.pagination {display: flex;}
+.pagination {
+  display: flex;
+}
 
-.followingBtn, .currentPageBtn, .loadMoreBtn:hover {
-  background: #5CD3A8;
+.followingBtn,
+.currentPageBtn,
+.loadMoreBtn:hover {
+  background: #5cd3a8;
 }
 
 .pageBtn {
@@ -45,4 +51,8 @@ color: #373737;
   margin-bottom: 20px;
 }
 
-.loadMoreBtn {text-transform: none; margin-bottom: 20px; margin-top: 10px;}
+.loadMoreBtn {
+  text-transform: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}

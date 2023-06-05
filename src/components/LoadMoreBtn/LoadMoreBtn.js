@@ -3,7 +3,11 @@ import css from '../Button/Button.module.css';
 function LoadMoreButton({ onClick, showLoadMore }) {
   return (
     <>
-      {showLoadMore && <button onClick={onClick} className={css.loadMoreBtn}>Load More</button>}
+      {showLoadMore && (
+        <button onClick={onClick} className={css.loadMoreBtn}>
+          Load More
+        </button>
+      )}
     </>
   );
 }
