@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0;
+  list-style: none;
+}
